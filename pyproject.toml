@@ -250,7 +250,7 @@ service = [
 
 gliner = [
   "gliner[tokenizers]>=0.2.0",
-  "torch>=2.0"
+  "torch>=2.13.0"
 ]
 
 mlx = [
@@ -266,7 +266,7 @@ mlx = [
 coreml = [
   "coremltools>=8.0",
   "huggingface-hub>=0.30",
-  "torch>=2.0",
+  "torch>=2.13.0",
   "transformers>=4.50",
 ]
 
@@ -274,7 +274,7 @@ onnx = [
   "onnx>=1.21",
   "onnxruntime>=1.16",
   "onnxscript>=0.1.0",
-  "torch>=2.0",
+  "torch>=2.13.0",
   "transformers>=4.50",
 ]
 
